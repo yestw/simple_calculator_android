@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         binding.buttonSub.setOnClickListener(this)
         binding.buttonMul.setOnClickListener(this)
         binding.buttonDiv.setOnClickListener(this)
-    }
+    } 
 
     override fun onClick(v: View?) {
         try {
